@@ -16,9 +16,9 @@ export const TopMenu = () => {
             <Link
                 href="/">
                 <span className={`${titleFont.className} antialiased font-bold`}>
-                    Teslo
+                    Shop
                 </span>  
-                <span> | Shop</span>          
+                <span> | App</span>          
             </Link>
         </div>
         {/* Center menu */}
@@ -48,10 +48,7 @@ export const TopMenu = () => {
             >
                 Menú
             </button>
-        </div>
-
-    
-                        
+        </div>          
     </nav>
   )
 }
