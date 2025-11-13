@@ -2,14 +2,17 @@ import { QuantitySelector, Title } from "@/app/components";
 import { initialData } from "@/seed";
 import Image from "next/image";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 
 export default function() {
   
   const productsInsert = [
     initialData.products[0],
     initialData.products[1],
-    initialData.products[2]
+    initialData.products[2] 
   ]
+
+  //redirect('/empty')
   
   return (
     <div className="flex justify-center items-center mb-72 px-10 sm:px-0">

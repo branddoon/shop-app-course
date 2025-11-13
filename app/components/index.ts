@@ -7,3 +7,4 @@ export * from './product/size-selector/SizeSelector';
 export * from './product/quantity-select/QuantitySelector';
 export * from './product/slideshow/ProductSlideShow';
 export * from './product/slideshow/ProductMobileSlideShow';
+export * from './ui/footer/Footer';
