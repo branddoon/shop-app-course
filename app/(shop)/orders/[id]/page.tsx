@@ -1,5 +1,5 @@
 import { Title } from "@/app/components";
-import { initialData } from "@/seed";
+import { initialData } from "@/seed/seed";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";

@@ -1,6 +1,6 @@
 import { ProductGrid, Sidebar, Title } from "@/app/components";
 import { Category } from "@/app/interfaces";
-import { initialData } from "@/seed";
+import { initialData } from "@/seed/seed";
 
 const seedProducts = initialData.products;
 

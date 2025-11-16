@@ -1,6 +1,6 @@
 'use-client';
 
-import { initialData } from "@/seed";
+import { initialData } from "@/seed/seed";
 import notFound from "../not-found";
 import { titleFont } from "@/app/layout";
 import { SizeSelector } from '../../../components/product/size-selector/SizeSelector';

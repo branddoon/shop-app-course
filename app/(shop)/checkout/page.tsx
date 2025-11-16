@@ -1,5 +1,5 @@
 import { QuantitySelector, Title } from "@/app/components";
-import { initialData } from "@/seed";
+import { initialData } from "@/seed/seed";
 import Image from "next/image";
 import Link from "next/link";
 
