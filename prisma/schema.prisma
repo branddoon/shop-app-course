@@ -1,6 +1,6 @@
 generator client {
   provider = "prisma-client"
-  output   = "../app/generated/prisma"
+  output   = "./generated/prisma"
 }
 
 datasource db {
@@ -43,6 +43,7 @@ model Product {
 
   category      Category       @relation(fields: [categoryId], references: [id])
   categoryId    String
+  title         String
   productImages ProductImage[]
 
   @@index([gender])

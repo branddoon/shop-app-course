@@ -9,4 +9,5 @@ E-commerce app.
 3. Run proyect ``` npm run dev ```
 4. Execute docker compose ``` docker compose up ```
 5. Execute prisma migration ``` npx migrate dev ```
+4. Execute seed ``` npx tsx seed/seed-database.ts ```
 
